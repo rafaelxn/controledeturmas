@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*RESETAR AS CONFIGURAÇÕES DO NAVEGADOR*/
+@import "reset.css";
+/*PADRONIZAÇÃO DE PALETA DE CORES DO MEU SITE - UTILIZANDO VARIAVEIS*/
+@import "cor.css";
+
+
+html, body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color: beige;
+        color: black;
+    }
+    nav{
+        background-color: transparent;
+        color: cornflowerblue;
+
+    }
+    ul{
+        list-style: none;
+
+    }
+    .menu ul li{
+        display: inline-block;
+        color: black;
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        border:  1px solid black;
+
+    }
+    .menu ul li:nth-child(2n+1){
+        background-color: dimgrey;
+    }
+    .menu ul li a{
+        color: chartreuse;
+        font-size: large;
+    }
+    section{
+
+    }
+    section section section{
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        height: 300px;
+        border: 2px solid black;
+       
+    }
+    header h2{
+        font-size: small;
+        text-align: center;
+    }
+    section section section footer{
+        background-color:  var(--cor1);
+    }
+    section section section footer h3{
+        font-size: smaller;
+    }
